@@ -31,6 +31,31 @@ header {
 }
 
 /* Main ***********************************************************************/
+.image {
+    border-width: 4px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+
+.image-1 {
+    border-color: red;
+}
+
+.image-2 {
+    border-color: green;
+
+    background-clip: border-box;
+    background-image: url("../asset/img/crow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-3 {
+    border-color: blue;
+}
+
 main {
 
 }
